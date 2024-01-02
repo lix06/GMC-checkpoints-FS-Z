@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Roboto*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    padding: 50px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /* Aligner les éléments horizontalement */
+    align-items: center;
+    padding: 15px;
+}
+
+li {
+    margin: 0 10px; /* Ajouter un espacement entre les éléments de la liste */
+}
+
+a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s; /* Ajouter une transition de couleur lors du survol */
+}
+
+a:hover {
+    color: #c30101; /* Couleur du texte au survol */
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+#work {
+    background-color: #e6f7ff;
+}
+
+#resume {
+    background-color: #f4f4f4;
+}
+
+#contact {
+    background-color: #e6f7ff;
+}
+
+/* Pied de la page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer:hover {
+    background-color: #555;
+}

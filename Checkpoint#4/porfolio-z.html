@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+
+  <!-- Barre de navigation -->
+<nav>
+    <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#work">Travail</a></li>
+        <li><a href="#resume">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Section À propos -->
+<section id="about" class="in-view">
+    <h2>À propos de moi</h2>
+    <p>Insérez ici des informations sur vous.</p>
+</section>
+
+<!-- Section Travail -->
+<section id="work" class="in-view">
+    <h2>Mon Travail</h2>
+    <p>Insérez ici des détails sur votre travail et vos projets.</p>
+    <video src="mon_travail.mp4" controls width="300"></video>
+</section>
+
+<!-- Section CV -->
+<section id="resume" class="in-view">
+    <h2>Mon CV</h2>
+    <form action="/submit_cv" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <input type="submit" value="Envoyer CV">
+    </form>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="in-view">
+    <h2>Contactez-moi</h2>
+    <form action="/submit_contact" method="post">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <input type="submit" value="Envoyer Message">
+    </form>
+</section>
+
+<!-- Pied de page -->
+<footer>
+    <p>&copy; 2023 Mon Portfolio</p>
+</footer>
+
+
+</body>
+</html>
